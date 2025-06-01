@@ -1,0 +1,19 @@
+sources:
+  - name: landing
+    description: Landing zone for Car Sales data
+    schema: landing
+    database: carsales
+    tables:
+      - name: branch
+        identifier: lnd_branch
+      - name: country
+        identifier: lnd_country
+      - name: date
+        identifier: lnd_date
+      - name: dealer
+        identifier: lnd_dealer
+      - name: product
+        identifier: lnd_product
+      - name: revenue
+        identifier: lnd_revenue
+      

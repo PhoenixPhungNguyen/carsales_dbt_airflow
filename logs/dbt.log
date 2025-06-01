@@ -1,0 +1,40 @@
+[0m17:47:39.636916 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016974A19910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016974A19CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016974A19510>]}
+
+
+============================== 17:47:40.132317 | 0e843a0c-4ea3-4b6e-bc54-3cb5b139b6c7 ==============================
+[0m17:47:40.132317 [info ] [MainThread]: Running with dbt=1.9.5
+[0m17:47:40.135094 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\haing\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt init dbt_carsales', 'send_anonymous_usage_stats': 'True'}
+[0m17:47:41.907165 [info ] [MainThread]: A project called dbt_carsales already exists here.
+[0m17:47:41.912739 [debug] [MainThread]: Command `dbt init` succeeded at 17:47:41.912163 after 2.94 seconds
+[0m17:47:41.916947 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016974A41150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001697439B610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001696CDAC090>]}
+[0m17:47:41.919904 [debug] [MainThread]: Flushing usage events
+[0m17:47:43.114168 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:48:04.338220 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002EE871B2A10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002EE87207450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002EE87206A10>]}
+
+
+============================== 17:48:04.345572 | c2351376-cc28-4f19-82ef-68f6420fb666 ==============================
+[0m17:48:04.345572 [info ] [MainThread]: Running with dbt=1.9.5
+[0m17:48:04.348437 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\haing\\.dbt', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt init dbt_carsales', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m17:48:04.438608 [debug] [MainThread]: Starter project path: D:\JUNGTALENTS\PROJECTS\local-data-stack\.venv\Lib\site-packages\dbt\include\starter_project
+[0m17:48:04.570604 [info ] [MainThread]: 
+Your new dbt project "dbt_carsales" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:48:04.573366 [info ] [MainThread]: Setting up your profile.
+[0m17:48:58.417693 [info ] [MainThread]: Profile dbt_carsales written to C:\Users\haing\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:48:58.425355 [debug] [MainThread]: Command `dbt init` succeeded at 17:48:58.425355 after 54.30 seconds
+[0m17:48:58.435952 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002EE86F18A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002EE809000D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002EE86FFF290>]}
+[0m17:48:58.440259 [debug] [MainThread]: Flushing usage events
+[0m17:48:59.586756 [debug] [MainThread]: An error was encountered while trying to flush usage events

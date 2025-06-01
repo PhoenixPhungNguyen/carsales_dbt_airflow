@@ -1,0 +1,12 @@
+dbt_carsales:
+  outputs:
+    dev:
+      dbname: carsales
+      host: localhost
+      pass: dbtPassword123
+      port: 5432
+      schema: marts
+      threads: 1
+      type: postgres
+      user: dbt
+  target: dev
