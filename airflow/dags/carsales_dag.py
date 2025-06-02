@@ -1,5 +1,6 @@
 import os
 from datetime import datetime
+import logging
 
 from scripts.extractors import (
     _get_google_drive_file_content,
@@ -42,6 +43,7 @@ def carsales_dag():
         file_list = _get_google_drive_file_list(
             folder_id=GOOGLE_DRIVE_FOLDER_ID, api_key=GOOGLE_API_KEY
         )
+        logging.info(f"File list retrieved: {file_list}")
         return file_list
 
     @task
